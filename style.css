@@ -10,30 +10,45 @@
     text-decoration: none;
     list-style: none;
     font-family: Montserrat,Roboto;
+   
+}
+
+.three-line{
+    font-size: 50px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
 }
 
 .first{
-    width: 1400px;
-    height: 120px;
+    width: 80%;
+    height: auto;
     /* background-color: antiquewhite; */
-    display: flex;  
-   align-items: center;
    margin: 0px auto;
+   padding: 30px 0px;
+
 }
 .list{
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
+    float:right;
+    margin-top: -50px;
+}
+.list-items{
+    display: inline-block;
+    
 }
 .list-items a{
-    margin: 0px 15px;
+     margin: 0px 10px;
     color: #000000;
     font-size: 20px;
     font-weight: 600;
     height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 5px 16px;
+    padding: 10px 30px;
+}
+.spe{
+    margin-right: 50px;
 }
 button{
     height: 50px;
@@ -150,7 +165,7 @@ button{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 850px;
+    height: auto;
     background: linear-gradient( 160deg, #1b7ced 30% , blue 100%);
 }
 .Eeight h2{
@@ -163,12 +178,21 @@ button{
     border-radius: 50%;
     color: aqua;
 }
+.box{
+    /* background-color: #ff0000; */
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
 .first-box{
-    margin-left: 15px;
+    width: 350px;
     padding: 25px;
     border-radius: 10px;
-    width: 20vw;
-    height: 590px;
+  
+    height: auto;
     background-color: var(--white-color);
 }
 .box .first-box h1{
@@ -219,7 +243,7 @@ button{
 .bla {
     background-color: #000000;
     opacity: 0.8;
-    width: 23vw;
+    width: 400px;
     height: 133px;
     color: #ffffff;
     margin-top: -25px;
@@ -235,8 +259,8 @@ button{
 }
 
 .nine{
-    margin: 100px auto 50px;
-    width: 80vw;
+    margin: 100px auto 30px;
+    width: 80%;
     text-align: center;
 }
 .nine h1{
@@ -253,8 +277,8 @@ button{
 .ten {
     margin: 0px auto;
     width: 80vw;
-    min-height: 500px;
-    /* background-color: #f5f5f5; */
+    height: auto;
+    background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,14 +311,13 @@ button{
     font-size: 18px;
 }
 .same3 {
+    justify-content: space-around;
     display: flex;
+    
 }
 .same4{
     height: 250px;
-    width: 39vw;
-    /* border: 1px solid black; */
-    /* margin-left: 30px;
-    margin-top: 40px; */
+    width: 40%;
     margin: 40px 20px 10px;
     background-color:var(--white-color) ;
     box-shadow: 1px 1px 5px 1px #808080  ;
@@ -303,34 +326,39 @@ button{
     margin: 15px 20px 40px;
     font-weight: 600;
     font-size: 17px;
-    width: 34vw;
+    width: 90%;
 }
 
 .eleven{
-    height: 300px;
+    height: auto;
     width: 100%;
     background: linear-gradient( 160deg, #1b7ced 10% , blue 140%);
     margin-top: 100px;
+    padding: 20px 0px;
 }
 
 .eleven .containet{
-    height: 100%;
+    height: auto;
     margin: 0px auto;
-    width: 80vw;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--white-color);
 }
+.con-left{
+    /* background-color: #ff0000; */
+    width: 50%;
+}
 .eleven .containet h1{
     font-size: 45px;
     font-weight: 600;
-    width: 30vw;
+   
 }
 .eleven .containet h3{
     font-size: 20px;
     font-weight: 500;
-    width: 32vw;
+   
     margin-top: 15px;
 }
 .eleven .containet button{
@@ -348,18 +376,24 @@ button{
 
 footer{
     width: 100%;
-    height: 480px;
+   height: auto;
     /* background-color: aqua; */
+    padding: 40px 0px;
 }
 .fotter-containet{
+    margin: 30px auto;
+    padding: 20px 0px;
+    /* background-color: aqua; */
     margin: 0px auto;
-    width: 80vw;
-    height: 100%;
+    width: 80%;
+    height: auto;
     display: flex;   
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 .fotter-containet .containet-1{
-    margin-top: 200px;
+   
 }
 .fotter-containet .containet-1 h2{
     margin-top: 30px;
@@ -369,7 +403,7 @@ footer{
 }
 .fotter-containet .same6 h1{
     font-weight: 600;
-    margin-top: 200px;
+   
     font-size: 35px;
 }
 .fotter-containet .same6 h2{
@@ -395,4 +429,214 @@ footer{
 
 .linkdin{
     color: rgb(0, 119,181);
+}
+.fifth{
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width:1490px) and (min-width:1190px) {
+    /* body{
+        background-color: #ff0000;
+    } */
+      .same .containet{
+        width: 50%;
+        height: 100%;
+      }
+      .image-3,.image1{
+          width: 50%;
+          height: 100%;
+      }
+      .second img , .fourth img{
+       
+         width: 100%;
+         height: 100%;
+     }
+     .image1 img{
+        margin-left: 0px;
+        margin-top: 0px;
+     }
+    
+     .third .image-2{
+        height: auto;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-top: 0px;
+     }
+     .third img{
+     margin-right: 0px;
+    margin-left: -700px;
+     }      
+      
+}
+@media screen and (max-width:1190px) {
+    /* body{
+        background-color: #ff0000;
+    } */
+    .same{
+        /* background-color: aqua; */
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .containet{
+   
+        width: 100%;
+        height: auto;
+
+    }
+ 
+    .containet h1 , .containet h3{
+        width: 100%;
+    }
+    .image1 , .image-3{
+        width: 100%;
+        height: auto;
+        
+    }
+   .image1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+   }
+ .image-3 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: -70px;
+   
+ }
+ .third .containet{
+    margin: 0px auto;
+ }
+ .third .image-2{
+    margin-left: 0px;
+   margin-top: 30px;
+   height: 500px;
+    width: 100%;
+ }
+ .third .image-2 img{
+    margin-left:-700px;
+ }
+   .third{
+    
+    flex-direction: column-reverse;
+   }
+
+   .fifth{
+  
+    justify-content: flex-start;
+    margin-top: -110px;
+   }
+   .fifth h1 , .fifth h3{
+    margin-top: 20px;
+    width: 80%;
+   }
+
+   
+}
+@media screen and (max-width:800px)  {
+    /* body{
+        background-color: aqua;
+    } */
+    .six , .seven{
+        flex-direction: column;
+    }
+    .six .same2 , .seven .same2{
+        width: 50%;
+        height: auto;
+       box-shadow: 1px 1px 2px 6px #808080;
+       margin-top: 20px;
+       padding: 15px;
+       margin: 20px auto;
+      }
+      .seven{
+      margin-top: -60px;
+    
+      }
+      .same h2 , .same2 h3{
+        width: 100%;
+      }
+    
+}
+@media screen  and (max-width:1260px){
+    /* body{
+        background-color: #ff0000;
+    } */
+    .same3{
+        flex-direction: column;
+    }
+    .same4{
+        width: 600px;
+    }
+    .eleven .containet{
+  
+        display: flex;
+        flex-direction: column;
+    }
+    .con-left{
+
+        width: 90%;
+        height: auto;
+    }
+    .con-left h1 , .con-left h3 {
+        width: 100%;
+    }
+    .eleven .containet button{
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width:1720px) {
+    .list-items a{
+        margin: 0px ;
+        padding: 10px 20px;
+    }
+    .spe{
+        margin-right: 0px;
+    }
+    
+}
+@media screen and (max-width:1360px) {
+    /* body{
+        background-color: #ff0000;
+    } */
+   .three-line{
+    display: block
+   }
+   .list{
+    left: -100%;
+    top: 160px;
+    transition:all .5s;
+    position:absolute;
+    width: 50%;
+    height: 100vh;
+    background-color:#2c3e50;
+   }
+   .list-items{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
+   }
+   .list-items a{
+    font-size: 28px;
+    color: #ffffff;
+   }
+   .list-items a:hover{
+    background-color: transparent;
+    color:var(--first-button-color);
+   }
+   #check:checked ~ nav ul{
+    left: 0%;
+    overflow-x: hidden;
+   }
+   body:hover > nav ul{
+   left: -100%;
+   }
+    
 }

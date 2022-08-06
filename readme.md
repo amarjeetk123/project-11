@@ -1,4 +1,4 @@
-# Project-11-  Websting Hosting Page Template.
+# Project-11-  Website Hosting Page Template.
  ## Hey there ,  I am Amarjeet 
  I have built a template of HTML and CSS project using my core css skills.
  
